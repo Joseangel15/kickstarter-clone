@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import kickstarterLogo from '../../Assets/kickstarter-logo-color.png';
 import './Header.css';
 
 
@@ -19,12 +20,13 @@ class Header extends Component {
                         </a>
                     </div>
                     <a className='main-title'>
-                        KICKSTARTER
+                        <img src={kickstarterLogo} className='mainLogo'></img>
                     </a>
                     <div className='second-inner-box'>
-                        <span>
+                        <span className='search-btn'>
                             Search
                         </span>
+                        <i class="fas fa-search" style={{ marginRight: '1.2rem'}}></i>
                         <a>
                             Sign in
                         </a>
