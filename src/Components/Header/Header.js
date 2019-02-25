@@ -10,18 +10,18 @@ class Header extends Component {
         return(
             <div className='mainDiv-header'>
                 <header>
-                    <div>
-                        <button>
+                    <div className='first-inner-box'>
+                        <button className='explore-btn'>
                             Explore
                         </button>
                         <a>
                             Start a Project 
                         </a>
                     </div>
-                    <div>
+                    <a className='main-title'>
                         KICKSTARTER
-                    </div>
-                    <div>
+                    </a>
+                    <div className='second-inner-box'>
                         <span>
                             Search
                         </span>

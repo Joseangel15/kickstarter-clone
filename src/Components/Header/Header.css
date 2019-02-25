@@ -5,3 +5,38 @@
     width: 100%;
     border: solid black 0.5px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+
+}
+
+.explore-btn{
+    margin-right: 1.2rem;
+}
+
+.first-inner-box{
+    margin-left: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+.second-inner-box{
+    margin-right: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.main-title{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+

@@ -57,3 +57,17 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+/* End of reset file */
+
+button {
+	cursor: pointer;
+}
+
+a{
+	cursor: pointer;
+}
+
+span{
+	cursor: pointer;
+}
