@@ -9,7 +9,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div>
+            <div className='footer-root'>
                 <div className='top-Menu'>
                     <a>Arts</a>
                     <a>Comics & Illustrations</a>
@@ -57,7 +57,7 @@ class Footer extends Component {
                             <a>Kickstarter Podcast</a>
                         </div>
                     </div>
-                    <div className='footer-bottom'>
+                    <div className='footer-middle-2'>
                         <span>
                             <icon></icon>
                             <h2>Kickstarter, PBC © 2019</h2>
@@ -68,15 +68,15 @@ class Footer extends Component {
                             <i class="fab fa-twitter"></i>
                             <i class="fab fa-youtube"></i>
                         </div>
-                        <div>
-                            <select>
+                        <div className='middle-footer-selectors'>
+                            <select className='language-btn'>
                                 <option>English</option>
                                 <option>Deustch</option>
                                 <option>Español</option>
                                 <option>Français</option>
                                 <option>日本語</option>
                             </select>
-                            <select>
+                            <select className='currency-btn'>
                                 <option selected>$  US Dollar   (USD)</option>
                                 <option>€  Euro   (EUR)</option>
                                 <option>$  Australian Dollar   (AUD)</option>
@@ -96,7 +96,10 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className='footer-bottom'>
-
+                    <a>Trust and Safety</a>
+                    <a>Terms of Use</a>
+                    <a>Privacy Policy</a>
+                    <a>Cookie Policy</a>
                 </div>
             </div>
         )

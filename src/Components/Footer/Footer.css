@@ -1,4 +1,6 @@
-
+.top-Menu{
+    border-top: 0.1rem solid #DCDEDD;
+}
 
 .main-footer-menu{
     display: flex;
@@ -22,10 +24,12 @@
     margin-bottom: 7px;
 }
 
-.footer-bottom{
+.footer-middle-2{
     display: flex;
     justify-content: center;
+    margin: 2.5rem 10.0rem 2.5rem 5.0rem;
 }
+
 
 .social-media-links{
     margin-left: 300px;
@@ -34,4 +38,36 @@
 
 .social-media-links i{
     margin-right: 20px;
+}
+
+.language-btn{
+    padding: 1.1rem 1.1rem 1.2rem 1.1rem;
+}
+
+.currency-btn{
+    padding: 1.1rem 1.1rem 1.2rem 1.1rem;
+    margin-left: 10px;
+}
+
+.middle-footer-selectors{
+    position: relative;
+    bottom: 20px;
+}
+
+.footer-middle{
+    border-bottom: 0.1px solid #DCDEDD;
+}
+
+.footer-bottom{
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.footer-bottom a{
+    margin-right: 2.5rem;
+}
+
+.footer-root{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
